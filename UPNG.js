@@ -1105,3 +1105,5 @@ UPNG.encode.dither = function(sb, w, h, plte, tb, oind) {
 		}
 	}
 }
+
+try { module.exports = UPNG } catch(e) {}
